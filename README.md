@@ -1,4 +1,4 @@
-# Stock Rrices for SP-500 companies
+# Stock Prices for SP-500 companies
 
  SP 500 companies stock prices
 
