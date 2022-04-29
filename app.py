@@ -84,3 +84,15 @@ if st.button('Show Plots'):
     st.header('Stock Closing Price')
     for i in list(df_selected_sector.Symbol)[:num_company]:
         price_plot(i)
+
+st.header('some text')
+hide_st_style = """
+    <style>
+        MainMenu {visibility: hiden;}
+        footer {visibility: hidden; }
+        header {visibility: hidden; }
+        
+    </style>
+"""
+
+st.markdown(hide_st_style, unsafe_allow_html=True)
